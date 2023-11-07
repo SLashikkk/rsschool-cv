@@ -38,4 +38,4 @@ A1. I study at an [English school.](https://progressme.ru/student/lessons?c=6380
 
 
 
-# https://SLashikkk.github.io/rsschool-cv/cv
+# https://slashikkk.github.io/rsschool-cv/cv
