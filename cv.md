@@ -28,3 +28,19 @@ _Hello! My name is Maxim, I am a future Front-end developer. I am good at assimi
   
 </body>
 </html>
+```
+
+---
+**practice:**
+_I take a layout and complete the task, then I compare it with other works. I get practical knowledge._
+
+---
+**Education:**
+Books about [HTML,CSS](http://htmlbook.ru/),[JavaScript](https://learn.javascript.ru/) and courses on YouTube.
+
+---
+**English level:**
+A1. I study at an [English school.](https://progressme.ru/student/lessons?c=638074799589641783)
+
+
+
