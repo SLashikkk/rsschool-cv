@@ -24,8 +24,9 @@
 .nav-list {
 display: flex;
 justify-content: flex-end;
-align-items: center;
-
+}
+.nav {
+  align-items: center;
 }
 html {
   scroll-behavior: smooth;
