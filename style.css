@@ -7,7 +7,10 @@
 }
   .main-header {
   border: 1px solid olive;
-  background-color: rgb(133, 160, 168);
+  background-color: rgb(165, 186, 192);
+}
+.container {
+  
 }
 .fotoAva {
   width: 150px;
