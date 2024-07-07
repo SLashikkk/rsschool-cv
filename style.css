@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Roboto;
+  src: url(assets/fonts/Roboto-Black.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+} 
+a {
+  font-size: 25px;
+  padding: 25px;
+  color: rgb(11, 11, 28);
+}
+a:hover {
+  color: rgb(160, 179, 14);
+}
+html {
+  scroll-behavior: smooth;
+}
+.nav-link {
+  transition: 0.3s;
+}
+.main-body {
+  background-image: url(./assets/img/fon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  width: 90%;
+  margin: 2rem auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  
+}
+.footer {
+  width: 100%;
+  padding: 13px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: auto;
+}
+.logotip {
+  width: 100px;
+}
+.BoxLF {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px;
+}
+.fotoRadiys {
+  border-radius: 100px;
+  width: 120px;
+}
+.rightBox {
+  font-size: 20px;
+}
+.section {
+  padding: 1%;
+}
+.codeExampl {
+  color: brown;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.container-item {
+  max-width: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-item{
+  width: 150px;
+}
