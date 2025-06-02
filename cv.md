@@ -1,4 +1,4 @@
-#  Maksim Safonov
+# Maksim Safonov
 ---
 __contacts:__
 * +375(44)731-07-11
