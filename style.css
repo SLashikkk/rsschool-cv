@@ -203,6 +203,11 @@ a {
   color: #731919c8;
 }
 
+.project-item-color a {
+  transition: 0.3s ease;
+  border-bottom: 1px solid;
+}
+
 .section-code {
   padding: 0 60px;
 }
@@ -380,7 +385,7 @@ button:disabled {
 .nav-item_close.active {
   display: block;
   top: 4%;
-  left:85%;
+  left: 85%;
 }
 
 #scrollUp {
@@ -408,14 +413,13 @@ button:disabled {
 }
 
 @media (max-width: 883px) {
-
   .hero {
     padding: 40px 60px;
   }
 
-.titel {
-  font-size: 40px;
-}
+  .titel {
+    font-size: 40px;
+  }
 
   .nav-link {
     padding: 15px 15px;
@@ -468,7 +472,6 @@ button:disabled {
 }
 
 @media (max-width: 692px) {
-
   .left-side {
     flex-direction: column;
     justify-content: center;
@@ -580,6 +583,13 @@ button:disabled {
     transition: 0.2s ease;
   }
 
+  .project-item-color a:hover {
+    border: none;
+  }
+
+  .arrow:active {
+    background-color: #b3aa96;
+  }
 }
 
 @keyframes pulse {
