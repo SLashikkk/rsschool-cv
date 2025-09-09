@@ -111,6 +111,7 @@ a {
   max-width: 200px;
   border-radius: 20px;
   margin-bottom: 30px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.4);
 }
 
 .section-contacts {
@@ -203,6 +204,11 @@ a {
   color: #731919c8;
 }
 
+.project-item-color a {
+  transition: 0.3s ease;
+  border-bottom: 1px solid;
+}
+
 .section-code {
   padding: 0 60px;
 }
@@ -265,6 +271,12 @@ button:disabled {
   user-select: none;
   transition: background 0.3s ease;
   flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  padding: 0;
 }
 
 .arrow:disabled:hover {
@@ -380,7 +392,7 @@ button:disabled {
 .nav-item_close.active {
   display: block;
   top: 4%;
-  left:85%;
+  left: 85%;
 }
 
 #scrollUp {
@@ -408,14 +420,13 @@ button:disabled {
 }
 
 @media (max-width: 883px) {
-
   .hero {
     padding: 40px 60px;
   }
 
-.titel {
-  font-size: 40px;
-}
+  .titel {
+    font-size: 40px;
+  }
 
   .nav-link {
     padding: 15px 15px;
@@ -468,7 +479,6 @@ button:disabled {
 }
 
 @media (max-width: 692px) {
-
   .left-side {
     flex-direction: column;
     justify-content: center;
@@ -523,6 +533,10 @@ button:disabled {
 
   .nav-item {
     text-align: center;
+  }
+
+  .contacts-item {
+    font-size: 17px;
   }
 }
 
@@ -580,6 +594,13 @@ button:disabled {
     transition: 0.2s ease;
   }
 
+  .project-item-color a:hover {
+    border: none;
+  }
+
+  .arrow:active {
+    background-color: #b3aa96;
+  }
 }
 
 @keyframes pulse {
